@@ -1,5 +1,5 @@
 {
-  "name": "antogkou/apex-client",
+  "name": "antogkou/salesforce-apex-client",
   "description": "A Salesforce Apex API client for Laravel applications",
   "type": "library",
   "license": "MIT",
