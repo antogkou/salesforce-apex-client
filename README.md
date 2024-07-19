@@ -16,10 +16,10 @@ composer require antogkou/apex-client
 use antogkou\ApexClient\Facades\ApexClient;
 
 // Get data from Salesforce
-$response = ApexClient::get('your/api/endpoint');
+$response = Salesforce::get('your/api/endpoint');
 
 // Post data to Salesforce
-$response = ApexClient::post('your/api/endpoint', ['key' => 'value']);
+$response = Salesforce::post('your/api/endpoint', ['key' => 'value']);
 ```
 
 ## Configuration
