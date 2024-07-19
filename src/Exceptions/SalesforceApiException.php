@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Integrations;
+namespace antogkou\ApexClient\Exceptions;
 
 use Exception;
 use Throwable;

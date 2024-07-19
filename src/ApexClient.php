@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Integrations;
+namespace antogkou\ApexClient;
 
 use App\Exceptions\SalesforceApiException;
 use Exception;

@@ -1,8 +1,8 @@
 <?php
 
-use App\Exceptions\SalesforceApiException;
-use App\Facades\Salesforce;
-use App\Http\Integrations\ApexClient;
+namespace Tests\Feature;
+
+use antogkou\ApexClient\ApexClient;
 use Illuminate\Http\Client\Request;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Config;
