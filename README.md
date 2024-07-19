@@ -7,7 +7,7 @@ ApexClient is a Laravel package for interacting with Salesforce Apex API.
 You can install the package via composer:
 
 ```bash
-composer require antogkou/apex-client
+composer require antogkou/salesforce-apex-client
 ```
 
 ## Usage
