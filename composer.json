@@ -22,21 +22,21 @@
   },
   "autoload": {
     "psr-4": {
-      "YourVendorName\\ApexClient\\": "src/"
+      "antogkou\\ApexClient\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "YourVendorName\\ApexClient\\Tests\\": "tests/"
+      "antogkou\\ApexClient\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "YourVendorName\\ApexClient\\ApexClientServiceProvider"
+        "antogkou\\ApexClient\\ApexClientServiceProvider"
       ],
       "aliases": {
-        "ApexClient": "YourVendorName\\ApexClient\\Facades\\ApexClient"
+        "ApexClient": "antogkou\\ApexClient\\Facades\\ApexClient"
       }
     }
   },
